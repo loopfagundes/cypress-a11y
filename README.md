@@ -40,6 +40,7 @@ As verificações foram executadas considerando severidades:
 ---
 
 ## 🚀 Como Executar
+
 ```bash
 cd Desktop
 mkdir cypress-a11y
@@ -51,22 +52,41 @@ npm i -D cypress-axe axe-core
 ```
 
 ### 1️⃣ Instalar dependências
+
 ```bash
 npm install
 ```
 
 ### 2️⃣ Executar os testes
+
 ```bash
 npx cypress run
 ```
+Rodar testes (headless)
+
+```bash
+npm run cy:run
+```
+Rodar em Chrome (recomendado)
+```bash
+npm run cy:run:chrome
+```
+
+Abrir UI do Cypress
+```bash
+npm run cy:open
+```
 
 ### 3️⃣ Gerar relatório HTML
+
 O relatório será gerado automaticamente em:
+
 ```bash
 /reports/a11y-report.html
 ```
 
-### 4️⃣ Converter HTML para PDF (Opcional)
+### 4️⃣ Opcional: converter para PDF:
+
 ```bash
 node scripts/html-to-pdf.js
 ```
