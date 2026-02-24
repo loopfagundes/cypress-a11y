@@ -12,7 +12,9 @@
   "type": "commonjs",
   "devDependencies": {
     "axe-core": "^4.11.1",
+    "axe-html-reporter": "^2.2.11",
     "cypress": "^15.10.0",
-    "cypress-axe": "^1.7.0"
+    "cypress-axe": "^1.7.0",
+    "puppeteer": "^24.37.5"
   }
 }
