@@ -87,6 +87,13 @@ O relatório será gerado automaticamente em:
 
 ### 4️⃣ Opcional: converter para PDF:
 
+Instalar puppeteer
+
+```bash
+npm i -D puppeteer
+```
+
+PDF gerar
 ```bash
 node scripts/html-to-pdf.js
 ```
