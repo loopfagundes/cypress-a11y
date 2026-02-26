@@ -98,7 +98,7 @@
             </h1>
             <div class="summarySection">
             </div>
-            <h2>axe-core found <span class="badge badge-warning">9</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">6</span> violations</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -121,7 +121,7 @@
                     </tr>
                     <tr>
                         <th scope="row"><a href="#2" class="card-link">2</a></th>
-                        <td>Images must have alternative text (Teste: Modal de cadastro - não deve ter violações critical&#x2F;serious)</td>
+                        <td>Images must have alternative text (Teste: Cadastro - não deve ter violações critical&#x2F;serious)</td>
                         <td>image-alt</td>
                         <td>WCAG 2 Level A, WCAG 1.1.1</td>
                         <td>critical</td>
@@ -141,7 +141,7 @@
                         <td>image-alt</td>
                         <td>WCAG 2 Level A, WCAG 1.1.1</td>
                         <td>critical</td>
-                        <td>5</td>
+                        <td>2</td>
                     </tr>
                     <tr>
                         <th scope="row"><a href="#5" class="card-link">5</a></th>
@@ -251,7 +251,7 @@
                 <div class="card-body">
                     <div class="violationCardLine">
                         <p class="card-title">
-                            <a id="2">2.</a> Images must have alternative text (Teste: Modal de cadastro - não deve ter violações critical&#x2F;serious)
+                            <a id="2">2.</a> Images must have alternative text (Teste: Cadastro - não deve ter violações critical&#x2F;serious)
                         </p>
                         <a
                             href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.11&#x2F;image-alt?application&#x3D;axeAPI"
@@ -360,7 +360,7 @@
                         </p>
                     </div>
                     <div class="violationCardLine">
-                        <p class="card-text">Ensure each HTML document contains a non-empty &lt;title&gt; element | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;home</p>
+                        <p class="card-text">Ensure each HTML document contains a non-empty &lt;title&gt; element | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;bank-statement</p>
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
                             serious
                         </p>
@@ -443,7 +443,7 @@
                         </p>
                     </div>
                     <div class="violationCardLine">
-                        <p class="card-text">Ensure &lt;img&gt; elements have alternative text or a role of none or presentation | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;home</p>
+                        <p class="card-text">Ensure &lt;img&gt; elements have alternative text or a role of none or presentation | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;bank-statement</p>
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
                             critical
                         </p>
@@ -515,70 +515,7 @@
                                     <td>2</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">#btn-TRANSFERÊNCIA &gt; span &gt; img[decoding&#x3D;&quot;async&quot;][data-nimg&#x3D;&quot;intrinsic&quot;]</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;img src&#x3D;&quot;data:image&#x2F;gif;base6...&quot; decoding&#x3D;&quot;async&quot; data-nimg&#x3D;&quot;intrinsic&quot; style&#x3D;&quot;position: absolute; ...&quot;&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have an alt attribute</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">#btn-PAGAMENTOS &gt; span &gt; img[decoding&#x3D;&quot;async&quot;][data-nimg&#x3D;&quot;intrinsic&quot;]</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;img src&#x3D;&quot;data:image&#x2F;gif;base6...&quot; decoding&#x3D;&quot;async&quot; data-nimg&#x3D;&quot;intrinsic&quot; style&#x3D;&quot;position: absolute; ...&quot;&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have an alt attribute</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">#btn-EXTRATO &gt; span &gt; img[decoding&#x3D;&quot;async&quot;][data-nimg&#x3D;&quot;intrinsic&quot;]</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;img src&#x3D;&quot;data:image&#x2F;gif;base6...&quot; decoding&#x3D;&quot;async&quot; data-nimg&#x3D;&quot;intrinsic&quot; style&#x3D;&quot;position: absolute; ...&quot;&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have an alt attribute</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">#btn-SAQUE &gt; span &gt; img[decoding&#x3D;&quot;async&quot;][data-nimg&#x3D;&quot;intrinsic&quot;]</code></pre>
+                                        <pre><code class="css text-wrap">.bank-statement__ContainerContent-sc-7n8vh8-4 &gt; span &gt; img[decoding&#x3D;&quot;async&quot;][data-nimg&#x3D;&quot;intrinsic&quot;]</code></pre>
                                         <p><strong>Element source</strong></p>
                                         <pre><code class="html text-wrap">&lt;img src&#x3D;&quot;data:image&#x2F;gif;base6...&quot; decoding&#x3D;&quot;async&quot; data-nimg&#x3D;&quot;intrinsic&quot; style&#x3D;&quot;position: absolute; ...&quot;&gt;</code></pre>
                                     </td>
@@ -620,7 +557,7 @@
                         </p>
                     </div>
                     <div class="violationCardLine">
-                        <p class="card-text">Ensure links have discernible text | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;home</p>
+                        <p class="card-text">Ensure links have discernible text | URL: https:&#x2F;&#x2F;bugbank.netlify.app&#x2F;bank-statement</p>
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
                             serious
                         </p>

@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "report:pdf": "node scripts/html-to-pdf.js",
+    "format": "prettier . --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "axe-core": "^4.11.1",
     "axe-html-reporter": "^2.2.11",
-    "cypress": "^15.10.0",
     "cypress-axe": "^1.7.0",
+    "prettier": "^3.8.1",
     "puppeteer": "^24.37.5"
   }
 }
