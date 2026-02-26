@@ -6,9 +6,9 @@ describe('POC Acessibilidade - BugBank', () => {
     checkA11yWithLogs();
   });
 
-  it('Modal de cadastro - não deve ter violações critical/serious', () => {
+  it('Cadastro - não deve ter violações critical/serious', () => {
     cy.visit('/');
-    cy.openRegisterModal();
+    cy.openRegister();
     checkA11yWithLogs();
   });
 
@@ -21,6 +21,8 @@ describe('POC Acessibilidade - BugBank', () => {
 
     cy.registerUser({ nome, email, senha });
     cy.login({ email, senha });
+
+    cy.extrato();
 
     checkA11yWithLogs();
   });
