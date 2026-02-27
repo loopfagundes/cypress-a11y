@@ -41,6 +41,8 @@ As verificações foram executadas considerando severidades:
 
 ## 🚀 Como Executar
 
+Caso esteja iniciando o projeto do zero:
+
 ```bash
 cd Desktop
 mkdir cypress-a11y
@@ -49,6 +51,8 @@ npm init -y
 npm install cypress --save-dev
 npx cypress open #(Cypress UI - opção E2E Testing)
 npm i -D cypress-axe axe-core
+npm i -D axe-html-reporter #report
+npm i -D prettier
 ```
 
 ### 1️⃣ Instalar dependências
@@ -97,3 +101,18 @@ PDF gerar
 ```bash
 node scripts/html-to-pdf.js
 ```
+
+### 5️⃣ Opcional: Formatação 
+Formatação todo o projeto
+```bash
+npx prettier . --write
+```
+
+### Como utilizar:
+
+Via script (Recomendado): O arquivo package.json, utilize o comando simplificado:
+```bash
+npm run <scripts>
+```
+
+
