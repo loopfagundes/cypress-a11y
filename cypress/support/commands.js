@@ -23,7 +23,7 @@ Cypress.Commands.add('login', ({ email, senha }) => {
   cy.contains('button', 'Acessar').click({ force: true });
 });
 
-Cypress.Commands.add('extrato', ()=> {
+Cypress.Commands.add('extrato', () => {
   cy.get('#btn-EXTRATO').click();
   cy.get('#textBalanceAvailable').then((saldo) => {
     const saldoDisponivel = saldo.text();
